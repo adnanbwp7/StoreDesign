@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <!-- NavBar 1 -->
+            <div class="navbar">
+                <div class="logo">
+                    Fashion
+                </div>
+                <ul>
+                    <li>New Product</li>
+                    <li>Best Seller</li>
+                    <li>Custom Product</li>
+                </ul>
+                 <select name="type" id="type" class="dropdown">
+                     <option value="New Product">New Product</option>
+                     <option value="Best Seller">Best Seller</option>
+                     <option value="Custom Product">Custom Product</option>
+                 </select>
+                <div class="arrow">
+                    <div class="forward"><i class="fa-solid fa-chevron-left"></i></div>
+                    <div class="forward"><i class="fa-solid fa-chevron-right"></i></div>
+                </div>
+            </div>
+            <!-- Card Container -->
+            <div class="card-container">
+                <!-- Card 1 -->
+                <div class="card">
+                    <div class="card-img">
+                        <img src="./images/card-img1.jpg" alt="images">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                                <button><i class="fa-solid fa-basket-shopping"></i></button>
+                                <button><i class="fa-regular fa-heart"></i></button>
+                                <button><i class="fa-solid fa-retweet"></i></button>
+                            </div>
+                            <div class="content-bottom">
+                                <label class="chk-container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="chk-container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star fill"></i>
+                        <i class="fa-solid fa-star fill"></i>
+                        <i class="fa-solid fa-star fill"></i>
+                        <i class="fa-solid fa-star fill"></i>
+                        <i class="fa-solid fa-star fill"></i>
+                    </div>
+                    <div class="title">
+                        Vestibulum Tempus
+                    </div>
+                    <div class="price">
+                        $19.12
+                        <div class="orignal-price">
+                            $23.90
+                        </div>
+                    </div>
+                    <div class="badge">-20%</div>
+                </div>
+                <!-- Card 2 -->
+                <div class="card">
+                    <div class="card-img">
+                        <img src="./images/card-img2.jpg" alt="images">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                                <button><i class="fa-solid fa-basket-shopping"></i></button>
+                                <button><i class="fa-regular fa-heart"></i></button>
+                                <button><i class="fa-solid fa-retweet"></i></button>
+                            </div>
+                            <div class="content-bottom">
+                                <label class="chk-container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="chk-container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="title">
+                        Donec Molestie
+                    </div>
+                    <div class="price">
+                        $16.12
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="card">
+                    <div class="card-img">
+                        <img src="./images/card-img3.jpg" alt="images">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                                <button><i class="fa-solid fa-basket-shopping"></i></button>
+                                <button><i class="fa-regular fa-heart"></i></button>
+                                <button><i class="fa-solid fa-retweet"></i></button>
+                            </div>
+                            <div class="content-bottom">
+                                <label class="chk-container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="chk-container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="title">
+                        Mauris Vulputate
+                    </div>
+                    <div class="price">
+                        $10.12
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="card">
+                    <div class="card-img">
+                        <img src="./images/card-img4.jpg" alt="images">
+                        <!-- image Hover -->
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                                <button><i class="fa-solid fa-basket-shopping"></i></button>
+                                <button><i class="fa-regular fa-heart"></i></button>
+                                <button><i class="fa-solid fa-retweet"></i></button>
+                            </div>
+                            <div class="content-bottom">
+                                <label class="chk-container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="chk-container">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="title">
+                        Merbi Pretium
+                    </div>
+                    <div class="price">
+                        $16.8
+                    </div>
+                    <div class="badge">New</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="container">
+            <!-- NavBar 2 -->
+            <div class="navbar">
+                <div class="logo">
+                    Brand ShowCase
+                </div>
+
+                <div class="arrow">
+                    <div class="forward"><i class="fa-solid fa-chevron-left"></i></div>
+                    <div class="forward"><i class="fa-solid fa-chevron-right"></i></div>
+                </div>
+            </div>
+            <!-- Card Container -->
+            <div class="card-container space-between">
+                <!-- Card 1 -->
+                <div class="sidebar">
+                    <button class="brands">
+                        <img src="./images/campbell.png" alt="campbell" srcset="">
+                    </button>
+                    <button class="brands">
+                        <img src="./images/mailchimp.png" alt="mailchimp" srcset="">
+                    </button>
+                    <button class="brands">
+                        <img src="./images/Sojern.png" alt="Sojern" srcset="">
+                    </button>
+                    <button class="brands">
+                        <img src="./images/glence.png" alt="glence" srcset="">
+                    </button>
+                    <button class="brands">
+                        <img src="./images/Unity.png" alt="Unity" srcset="">
+                    </button>
+                </div>
+                <div class="card-gp">
+                    <!-- Card 1 -->
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./images/card-img2.jpg" alt="images">
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                                    <button><i class="fa-regular fa-heart"></i></button>
+                                    <button><i class="fa-solid fa-retweet"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="title">
+                            Donec Molestie
+                        </div>
+                        <div class="price">
+                            $16.12
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./images/card-img3.jpg" alt="images">
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                                    <button><i class="fa-regular fa-heart"></i></button>
+                                    <button><i class="fa-solid fa-retweet"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="title">
+                            Mauris Vulputate
+                        </div>
+                        <div class="price">
+                            $10.12
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./images/card-img4.jpg" alt="images">
+                            <!-- image Hover -->
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                                    <button><i class="fa-regular fa-heart"></i></button>
+                                    <button><i class="fa-solid fa-retweet"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="title">
+                            Merbi Pretium
+                        </div>
+                        <div class="price">
+                            $16.8
+                        </div>
+                        <div class="badge">New</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
